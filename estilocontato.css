@@ -1,0 +1,67 @@
+/* Estilo para a imagem do logo dentro da barra de navegação */
+.navbar-brand img {
+    max-width: 40px;  /* Define a largura máxima da imagem do logo como 40 pixels */
+    height: auto;     /* Ajusta automaticamente a altura da imagem para manter a proporção */
+}
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: #f8f9fa;  /* Define a cor de fundo do rodapé para um tom claro de cinza */
+    padding: 20px 0;            /* Adiciona espaçamento acima e abaixo do conteúdo do rodapé */
+}
+
+/* Estilo para a seção de fundo */
+.background {
+    background-image: url(contato.jpg); /* Define a imagem de fundo da seção (caminho relativo da imagem) */
+    background-size: cover;  /* A imagem cobre a area sem distorcer */
+    background-position: center;  /* A imagem de fundo é centralizada */
+    height: 100vh;  /* A altura da seção será de 100% da altura da janela de visualização (tela inteira) */
+    display: flex;   /* Usa o Flexbox para alinhar os itens dentro da seção */
+    justify-content: flex-end;  /* Alinha os itens (como o formulário) à direita da tela */
+    align-items: center;  /* Alinha o conteúdo verticalmente ao centro da tela */
+}
+
+/* Estilo para o formulário dentro da seção */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);  /* Define um fundo branco semi-transparente (80% opacidade) para o formulário */
+    padding: 30px;  /* Adiciona preenchimento interno de 30 pixels */
+    border-radius: 10px;  /* Arredonda os cantos do formulário */
+    width: 100%;  /* O formulário ocupa 100% da largura do seu contêiner */
+    max-width: 400px;  /* Define a largura máxima do formulário para 400 pixels */
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: sans-serif;  /* Define a fonte do corpo da página para sans-serif */
+    background-color: #a58453;  /* Define a cor de fundo do corpo da página para um tom marrom claro */
+}
+
+/* Estilo para a classe "rose", geralmente usada para algum elemento de destaque */
+.rose {
+    background-color: #e2c5c5;  /* Define um fundo de cor rosa claro */
+}
+
+/* Estilo para o título dentro dos cards */
+.card-title {
+    background-color: #ca8825;  /* Define um fundo dourado para o título */
+    text-align: center;  /* Alinha o título no centro do card */
+}
+
+/* Estilo para o contêiner com margem superior */
+.containermt-4 {
+    background-color: rgb(250, 239, 226);  /* Define um fundo de cor creme muito claro */
+    margin-top: 10%;  /* Adiciona uma margem superior de 10% da altura da tela */
+}
+
+/* Estilo para o contêiner com um fundo claro */
+.container {
+    background-color: rgb(250, 239, 226);  /* Define a cor de fundo para um tom de creme */
+    padding: 20px;  /* Adiciona preenchimento interno de 20 pixels */
+    border-radius: 8px;  /* Arredonda os cantos do contêiner */
+    box-shadow: 0 2px 4px rgba(242, 245, 238, 0.1);  /* Adiciona uma sombra suave e discreta ao redor do contêiner */
+}
+
+/* Reaplicando o estilo do rodapé com a cor de fundo marrom */
+.footer {
+    background-color: #a58453;  /* Altera a cor de fundo do rodapé para um tom de marrom escuro */
+}

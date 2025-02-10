@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+    <!-- Tornando o site responsivo em dispositivos móveis e tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página que será exibido na aba do navegador -->
+    <title>Faz acontecer</title>
+
+    <!-- Importando o CSS do Bootstrap para usar os estilos e componentes prontos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- Link CSS -->
+   <!-- Importa o arquivo de estilo local para sobrescrever as formatações padrão do Bootstrap -->
+   <link rel="stylesheet" href="estiloindex.css">
+</head>
+<body>
+
+<!-- Menu de navegação (Navbar) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <!-- Nome do projeto que será exibido no menu -->
+        <a class="navbar-brand" href="index.html"><img src="logo.jpg" alt="Punho fechado para cima"></a>
+
+        <!-- Botão para alternar a visibilidade do menu em dispositivos móveis (Menu Sandwich) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu que será exibido no desktop ou em dispositivos móveis quando clicado -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav"> 
+                <li class="nav-item">
+                    <!-- Link para a página inicial -->
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <!-- Link para a seção de Guias -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Guias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="tempo.html">Gestão de tempo</a></li>
+                        <li><a class="dropdown-item" href="financa.html">Gestão financeira</a></li>                        
+                    </ul>
+                </li>                 
+                <li class="nav-item">
+                    <!-- Link para a seção de Contato -->
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Seção de Início -->
+ <!-- Container com imagem e texto -->
+ <div class="imagem-container">
+    <img src="negrasolo.jpg" alt="Imagem Exemplo" class="imagem">
+    <div class="texto-sobre-imagem">
+        <h2 class="textimg">Você não está sozinha, mulher!</h2> 
+        <p class="textimg2">Somos um projeto dedicado a apoiar mulheres negras, <br>
+            mães solteiras, especialmente aquelas que vivem em periferias, <br>
+             ajudando a organizar melhor o tempo e o dinheiro.  <br>
+             Sabemos o quanto é difícil lidar com tantas responsabilidades,<br> 
+            e queremos ser sua rede de apoio!</p> 
+    </div>
+</div>
+
+<section id="home" class="container py-5"> <!-- Container somos -->
+    <h2 class="somos">Somos o Faz acontecer!</h2>
+    <p class="somos2">Nosso objetivo é oferecer informações e conscientização para que você se sinta mais segura e confiante para retomar sua vida profissional e alcançar a independência financeira. Vamos compartilhar guias e dicas práticas para que você tenha ferramentas que ajudem na sua jornada, sempre com muito carinho e respeito.
+     <br>Aqui, você tem suporte, orientação e, principalmente, a certeza de que está caminhando para um futuro mais estável e empoderado. Juntas somos mais fortes!</p>
+</section>
+
+<!-- Guias -->
+<br>
+<div class="row justify-content-center">
+    <!-- 1 card -->
+     <div class="col-md-3">
+        <div class="card text-black h-100">
+            <div class="card-body">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Planeje seu dia</h3>
+                <p>Defina metas e prioridades para o seu dia. Anote as tarefas que precisam ser feitas e o tempo estimado para cada uma delas.</p>      
+            </div>
+        </div>
+    </div>
+
+    <!-- 2 card -->
+     <div class="col-md-3">
+        <div class="card text-black h-100">   
+            <div class="card-body">
+                <i class="fas fa-bell"></i>
+                <h3>Evite distrações</h3>
+                <p>Desligue as notificações do celular, feche as abas desnecessárias do navegador e encontre um ambiente tranquilo para se concentrar nas suas tarefas.</p>
+            </div> 
+        </div>
+    </div>
+
+    <!-- 3 card -->
+     <div class="col-md-3">
+        <div class="card text-black h-100">    
+            <div class="card-body">
+                <i class="fas fa-chart-line"></i>
+                <h3>Use a técnica Pomodoro</h3>
+                <p>Divida seu tempo de trabalho em blocos de 25 minutos de foco intenso, seguidos por 5 minutos de descanso. A cada 4 blocos, faça uma pausa maior de 15-20 minutos.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<!-- Seção "Ajude-nos" -->
+<section id="ajude-nos" class="container py-5">
+    <h2 class="ajuda">Ajude-nos a crescer!</h2>
+    <p class="ajuda1">Caso tenha gostado do nosso conteúdo, por favor compartilhe para que possa alcançar cada vez mais pessoas!
+        <br> Caso queira se tornar um voluntário, entre em  <a href="../contato/contato.html">contato.</a>
+    </p>
+</section>
+
+<hr> 
+<!-- Rodapé -->
+<footer class="footer mt-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Endereço</h4>
+                <p><a href="seu-link-para-o-mapa" target="_blank"><i class="fas fa-map-marker-alt"></i></a>Rua Nova, 123<br>Bairro:Centro<br>São Luis-Ma</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Redes Sociais</h4>
+                <ul>
+                    <li><a href="seu-link-do-facebook" target="_blank"><i class="fab fa-facebook"></i></a>Facebook</li>
+                    <li><a href="seu-link-do-instagram" target="_blank"><i class="fab fa-instagram"></i></a>Instagram</li>
+                    <li><a href="seu-link-do-twitter" target="_blank"><i class="fab fa-twitter"></i></a>Twitter</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Informações de Contato</h4>
+                <p><a href="mailto:seu-email@exemplo.com" target="_blank"><i class="fas fa-envelope"></i></a> Email: Squad07fazacontecer@recodemail.com<br><a href="tel:seu-telefone" target="_blank"><i class="fas fa-phone"></i></a>Telefone: (12) 3123-1234</p>
+            </div>
+            <p style="text-align: center;"><small>&copy; 2025 Projeto Responsivo. Todos os direitos reservados.</small></p>
+        </div>
+    </div>
+</footer>
+
+<!-- Importando o JavaScript do Bootstrap para interatividade -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</html>

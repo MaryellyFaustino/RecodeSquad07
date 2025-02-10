@@ -1,0 +1,122 @@
+/* Estilo para a imagem no logo da navbar */
+.navbar-brand img {
+    max-width: 40px; /* Limita a largura máxima da imagem para 40px */
+    height: auto; /* Mantém a proporção da altura da imagem */
+}
+
+/* Estilo para o contêiner da imagem de fundo */
+.imagem-container {
+    position: relative; /* Permite posicionar o texto sobre a imagem */
+    width: 100%; /* O contêiner ocupa toda a largura disponível */
+}
+
+/* Estilo para a imagem de fundo */
+.imagem {
+    width: 100%; /* A imagem ocupa toda a largura do contêiner */
+    height: 70vh; /* A altura da imagem ocupa 70% da altura da tela */
+    object-fit: cover; /* A imagem cobre todo o contêiner sem distorcer */
+}
+
+/* Estilo para o texto sobre a imagem */
+.texto-sobre-imagem {
+    position: absolute; /* Permite posicionar o texto sobre a imagem */
+    top: 50%; /* Posiciona o texto verticalmente no centro */
+    left: 10%; /* Posiciona o texto horizontalmente mais à esquerda */
+    transform: translate(0%, -50%); /* Ajusta a posição para que o texto fique centralizado */
+    color: white; /* Cor do texto em branco */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilo para o título do texto sobre a imagem */
+.textimg {
+    font-size: 30px; /* Tamanho do título */
+    font-weight: bold; /* Deixa o título em negrito */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Fonte do título */
+}
+
+/* Estilo para o parágrafo sobre a imagem */
+.textimg2 {
+    font-size: 16px; /* Tamanho do parágrafo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte do parágrafo */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Estilo para o título da seção "Somos" */
+.somos {
+    text-align: center; /* Centraliza o texto */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Fonte do título */
+}
+
+/* Estilo para o parágrafo da seção "Somos" */
+.somos2 {
+    text-align: center; /* Centraliza o texto */
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte do parágrafo */
+}
+
+/* Formatação para o título da seção "Guias" */
+.nguias {
+    text-align: center; /* Centraliza o texto */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Fonte do título */
+}
+
+/* Estilo para o título do card */
+.titulos {
+    color: black; /* Cor do texto do título */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte do título */
+    text-decoration: none; /* Remove qualquer decoração de texto */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Alinha o título do card ao centro */
+.card-title {
+    text-align: center;
+}
+
+/* Alinha os itens no centro da coluna */
+.col-md-4 {
+    align-items: center;
+}
+
+/* Estilo para a seção "Ajude-nos" */
+.ajuda {
+    text-align: center; /* Centraliza o texto */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Fonte do título */
+}
+
+/* Estilo para o parágrafo da seção "Ajude-nos" */
+.ajuda1 {
+    text-align: center; /* Centraliza o texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte do parágrafo */
+}
+
+/* Estilo para o fundo da página */
+body {
+    font-family: sans-serif; /* Fonte geral da página */
+    background-color: #a58453; /* Cor de fundo */
+}
+
+/* Estilo para um fundo rosa (possivelmente para uma seção específica) */
+.rose {
+    background-color: #e2c5c5; /* Cor de fundo rosa claro */
+}
+
+/* Estilo para o título do card */
+.card-title {
+    background-color: #ca8825; /* Cor de fundo do título do card */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo para o contêiner com margem superior */
+.containermt-4 {
+    background-color: rgb(250, 239, 226); /* Cor de fundo */
+    margin-top: 10%; /* Adiciona um espaçamento no topo */
+}
+
+/* Estilo para o contêiner com fundo personalizado */
+.container {
+    background-color: rgb(250, 239, 226); /* Cor de fundo do contêiner */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(242, 245, 238, 0.1); /* Adiciona uma sombra suave */
+}

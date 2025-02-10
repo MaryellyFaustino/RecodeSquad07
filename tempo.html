@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Definindo o charset da página para UTF-8 (para suportar caracteres especiais como acentos) -->
+    <meta charset="UTF-8">
+
+    <!-- Tornando o site responsivo em dispositivos móveis e tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página que será exibido na aba do navegador -->
+    <title>Faz acontecer</title>
+
+    <!-- Importando o CSS do Bootstrap para usar os estilos e componentes prontos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- Link CSS -->
+    <link rel="stylesheet" href="estilotempo.css"> <!--Colocado apos Boot para sobscrever formatação-->
+
+</head>
+<body>
+
+<!-- Menu de navegação (Navbar) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <!-- Nome do projeto que será exibido no menu -->
+        <a class="navbar-brand" href="index.html"><img src="logo.jpg" alt="Punho fechado para cima"></a>
+
+        <!-- Botão para alternar a visibilidade do menu em dispositivos móveis (Menu Sandwich) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        
+
+        <!-- Menu que será exibido no desktop ou em dispositivos móveis quando clicado -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav"> 
+                <li class="nav-item">
+                    <!-- Link para a página inicial -->
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+               
+                    <!-- Link para a seção de Guias -->
+                     <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Guias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="tempo.html">Gestão de tempo</a></li>
+                        <li><a class="dropdown-item" href="financa.html">Gestão financeira</a></li>                        
+                    </ul>
+                </li>                    
+                <li class="nav-item">
+                    <!-- Link para a seção de Contato -->
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contêiner para a imagem principal da página -->
+<div class="imagem-container">
+    <img src="gestao.jpg" alt="Imagem Exemplo" class="imagem">
+
+<!-- Seção principal com dicas sobre gestão de tempo -->
+    <div class="container mt-4">
+        <h2>Dicas de Gestão de Tempo para Mães Negras Empreendedoras</h2>
+        <h3>Equilibre suas responsabilidades e aprenda a gerenciar seu tempo de forma eficaz para crescer como mãe e empreendedora</h3>
+        <p>Ser mãe e empreendedora é um desafio multifacetado que exige habilidades excepcionais de gestão de tempo. No Brasil, onde o número de mães solo empreendedoras cresce a cada ano, a necessidade de equilibrar as responsabilidades maternas com as demandas do próprio negócio se torna ainda mais evidente. Essas mulheres enfrentam obstáculos únicos, como a falta de tempo, o apoio limitado e a pressão para serem bem-sucedidas em todas as áreas de suas vidas.
+
+            A gestão de tempo eficiente é crucial para que mães solo empreendedoras prosperem em seus negócios sem comprometer o bem-estar de seus filhos e o seu próprio. Ao dominar essa habilidade, elas podem organizar suas rotinas, definir prioridades, evitar o esgotamento e aumentar a produtividade. Este guia foi criado com o objetivo de fornecer dicas práticas e eficazes para ajudar mães solo empreendedoras a otimizar seu tempo e alcançar o sucesso em todas as áreas de suas vidas.</p>
+    </div>
+
+    <!-- Cards com dicas práticas sobre gestão de tempo -->
+<div class="container">
+    <div class="row">
+        <!-- Card com a dica "Planeje seu dia" -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Planeje seu dia</h5>
+                    <p class="card-text">Defina metas e prioridades para o seu dia. Anote as tarefas que precisam ser feitas e o tempo estimado para cada uma delas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card com a dica "Evite distrações" -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Evite distrações</h5>
+                    <p class="card-text">Desligue as notificações do celular, feche as abas desnecessárias do navegador e encontre um ambiente tranquilo para se concentrar nas suas tarefas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card com a dica "Use a técnica Pomodoro" -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Use a técnica Pomodoro</h5>
+                    <p class="card-text">Divida seu tempo de trabalho em blocos de 25 minutos de foco intenso, seguidos por 5 minutos de descanso. A cada 4 blocos, faça uma pausa maior de 15-20 minutos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Outras dicas em forma de cards -->
+    <div class="row mt-4">
+        <!-- Card "Delegue tarefas" -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Delegue tarefas</h5>
+                    <p class="card-text">Se possível, delegue tarefas para outras pessoas. Isso libera tempo para você se concentrar em atividades mais importantes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card "Aprenda a dizer não" -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Aprenda a dizer não</h5>
+                    <p class="card-text">Não se sinta obrigado a aceitar todas as tarefas que aparecem. Saiba dizer não para aquelas que não são prioritárias ou que você não tem tempo para fazer.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card "Revise seu progresso" -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Revise seu progresso</h5>
+                    <p class="card-text">No final do dia, revise as tarefas que foram feitas e as que ficaram pendentes. Planeje o dia seguinte com base no seu progresso.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    <!-- Seção com recursos extras, como artigos, ferramentas de planejamento e cursos -->
+        <div class="container mt-4">
+            <div class="row justify-content-center">
+                <!-- Seção principal -->
+                <div class="col-12">
+                    <h2 style="text-align: center;">Recursos Extras</h2>
+                    <p>Para auxiliar as mães empreendedoras a se aprofundarem no tema da gestão de tempo e empreendedorismo, separamos alguns recursos extras que podem ser muito úteis:</p>
+                </div>
+                
+                <!-- Primeira coluna: Artigos relacionados e Ferramentas de planejamento -->
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <h3>Artigos relacionados</h3>
+                        <ul>
+                            <li><a href="https://forbes.com.br/forbes-money/2023/04/isabela-matte-gestao-de-tempo-para-empreendedores/">10 dicas de gestão de tempo para mães empreendedoras</a></li>
+                            <li><a href="https://sebrae.com.br/sites/PortalSebrae/artigos/4-dicas-para-conciliar-empreendedorismo-com-maternidade,99a867693ad80710VgnVCM1000004c00210aRCRD">Como conciliar maternidade e empreendedorismo</a></li>
+                            <li><a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2024/03/08/mulheres-empreendedoras-relatam-inspiracao-nos-filhos-para-abrir-o-proprio-negocio-mas-reclamam-de-sobrecarga-diz-sebrae.ghtml">Mães empreendedoras: desafios e superação</a></li>
+                            <li><a href="https://endeavor.org.br/">Gestão de tempo para empreendedoras de sucesso</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h3>Ferramentas de planejamento</h3>
+                        <ul>
+                            <li><a href="https://trello.com/login">Trello - Ferramenta online para organizar tarefas e projetos de forma visual e colaborativa.</a></li>
+                            <li><a href="https://calendar.google.com/">Google Agenda - Agenda online para agendar compromissos, definir lembretes e compartilhar com outras pessoas.</a></li>
+                            <li><a href="https://www.evernote.com/Login.action">Evernote - Aplicativo para criar notas, listas de tarefas, salvar artigos e organizar informações em geral.</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Segunda coluna: Cursos online e Grupos e comunidades online -->
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <h3>Cursos online</h3>
+                        <ul>
+                            <li><a href="https://www.udemy.com/course/produtividade-e-gestao-de-tempo/">Gestão de tempo para empreendedoras</a></li>
+                            <li><a href="https://www.eduzz.com/">Empreendedorismo para mães</a></li>
+                            <li><a href="https://hotmart.com/pt-br/marketplace/produtos/produtividade-e-gestao-de-tempo-3/P66752901O">Produtividade para mães</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="mb-4">
+                        <h3>Grupos e comunidades online</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/groups/190513576062719/members/">Mães Empreendedoras - Grupo no Facebook para troca de experiências, dicas e apoio entre mães empreendedoras.</a></li>
+                            <li><a href="https://www.facebook.com/groups/232035973479784/">Mulheres Empreendedoras - Grupo no Facebook para mulheres que empreendem em diversos setores.</a></li>
+                            <li><a href="https://sebrae.com.br/sites/PortalSebrae/ufs/sc/sebraeaz/sebrae-delas-mulher-de-negocios,b1a7b16268bda610VgnVCM1000004c00210aRCRD">Sebrae Delas - Plataforma online com conteúdos, cursos e eventos voltados para o empreendedorismo feminino.</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<hr>
+</footer>
+<!-- Rodapé -->
+<footer class="footer mt-4 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Endereço</h4>
+                <p><a href="seu-link-para-o-mapa" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </a>Rua Nova, 123<br>Bairro:Centro<br>São Luis-Ma</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Redes Sociais</h4>
+                <ul>
+                    <li><a href="seu-link-do-facebook" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                      </a>Facebook</a></li>
+                    <li><a href="seu-link-do-instagram" target="_blank">
+                        <i class="fab fa-instagram"></i></a>Instagram</a></li>
+                    <li><a href="seu-link-do-twitter" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                      </a>Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Informações de Contato</h4>
+                <p><a href="mailto:seu-email@exemplo.com" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                  Email: Squad07fazacontecer@recodemail.com<br><a href="tel:seu-telefone" target="_blank">
+                    <i class="fas fa-phone"></i>
+                  </a>Telefone: (12) 3123-1234</p>
+            </div>
+            <p style="text-align: center;"><small>&copy; 2025 Projeto Responsivo. Todos os direitos reservados.</small></p>
+        </div>
+    </div>
+
+
+
+<!-- Importando o JavaScript do Bootstrap para interatividade (ex: menu hamburger) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

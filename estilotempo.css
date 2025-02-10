@@ -1,0 +1,53 @@
+/* Estilo para a imagem do logotipo na barra de navegação */
+.navbar-brand img {
+    max-width: 40px; /* Define que a largura máxima da imagem será de 40px */
+    height: auto;    /* A altura será ajustada automaticamente para manter a proporção da imagem */
+}
+
+/* Estilo para o contêiner da imagem */
+.imagem-container {
+    position: relative; /* Permite posicionar elementos filhos de forma absoluta dentro do contêiner */
+    width: 100%; /* O contêiner ocupará 100% da largura disponível do seu elemento pai */
+}
+
+/* Estilo para a imagem dentro do contêiner */
+.imagem {
+    width: 100%; /* A imagem ocupará toda a largura do contêiner */
+    height: 70vh; /* A altura será 70% da altura da janela de visualização */
+    object-fit: cover; /* A imagem será redimensionada para cobrir todo o contêiner sem distorção */
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: sans-serif; /* Define a fonte padrão para a página como sans-serif */
+    background-color: #a58453; /* Cor de fundo marrom claro para o corpo da página */
+}
+
+/* Estilo para a classe .rose (aparentemente usada em algum componente ou área específica) */
+.rose {
+    background-color: #e2c5c5; /* Cor de fundo rosa claro */
+}
+
+/* Estilo para o título dentro de um card */
+.card-title {
+    background-color: #ca8825; /* Cor de fundo laranja para o título */
+    text-align: center; /* Centraliza o texto dentro do título */
+}
+
+/* Estilo para o container com a classe .containermt-4 */
+.containermt-4 {
+    background-color: rgb(250, 239, 226); /* Cor de fundo bege claro */
+    margin-top: 10%; /* Aplica um espaçamento superior de 10% */
+}
+
+/* Estilo para os containers com a classe .container */
+.container {
+    background-color: rgb(250, 239, 226); /* Cor de fundo bege claro */
+}
+
+/* Estilo para containers com bordas arredondadas e sombras suaves */
+.container {
+    padding: 20px; /* Adiciona um espaçamento interno de 20px em todos os lados */
+    border-radius: 8px; /* Aplica bordas arredondadas com raio de 8px */
+    box-shadow: 0 2px 4px rgba(242, 245, 238, 0.1); /* Adiciona uma sombra suave ao redor do contêiner */
+}

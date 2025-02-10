@@ -1,0 +1,115 @@
+/* Estilo para o logotipo na barra de navegação */
+.navbar-brand img {
+  max-width: 40px; /* Limita a largura máxima da imagem a 40px */
+  height: auto;    /* A altura da imagem será ajustada proporcionalmente */
+}
+
+/* Estilo para o contêiner que envolve a imagem */
+.imagem-container {
+  position: relative; /* Define o contêiner como relativo para permitir posicionamento absoluto dentro dele */
+  width: 100%; /* A largura do contêiner será 100% do elemento pai */
+}
+
+/* Estilo para a imagem */
+.imagem {
+  width: 100%; /* A imagem ocupará toda a largura do contêiner */
+  height: 70vh; /* A altura da imagem será 70% da altura da janela de visualização */
+  object-fit: cover; /* Faz a imagem cobrir totalmente o contêiner sem distorção */
+}
+
+/* Estilo geral para o corpo da página */
+body {
+  background-color: var(--nude); /* Define a cor de fundo com a variável --nude (não definida neste código) */
+  color: #333; /* Define a cor do texto */
+}
+
+/* Estilo alternativo para o fundo da página */
+body {
+  font-family: sans-serif; /* Define a fonte para sans-serif */
+  background-color: #a58453; /* Define um tom marrom claro como fundo */
+}
+
+/* Estilo para a classe .rose (aparentemente não utilizada no HTML) */
+.rose {
+  background-color: #e2c5c5; /* Define uma cor de fundo rosa claro */
+}
+
+/* Estilo para o título dentro do card */
+.card-title {
+  background-color: #ca8825; /* Define uma cor de fundo laranja para o título */
+  text-align: center; /* Centraliza o texto do título */
+}
+
+/* Estilo para o container que envolve o conteúdo */
+.containermt-4 {
+  background-color: rgb(250, 239, 226); /* Cor de fundo clara */
+  margin-top: 10%; /* Define um espaçamento superior de 10% */
+}
+
+/* Estilo para todos os containers com a classe .container */
+.container {
+  background-color: rgb(250, 239, 226); /* Cor de fundo clara */
+  padding: 20px; /* Adiciona um padding de 20px ao redor do conteúdo */
+  border-radius: 8px; /* Define bordas arredondadas com raio de 8px */
+  box-shadow: 0 2px 4px rgba(242, 245, 238, 0.1); /* Adiciona uma sombra suave ao redor do container */
+}
+
+/* Estilo específico para os cards dentro do layout */
+.card {
+  background-color: #a58453; /* Cor de fundo marrom claro */
+}
+
+/* Estilo para o container com a classe .container_mt-4 */
+.container_mt-4 {
+  background-color: #a58453; /* Cor de fundo marrom claro */
+  margin-top: 100%; /* Define um espaçamento superior de 100% (provavelmente para efeito visual) */
+}
+
+/* Estilo para a seção de recursos do Sebrae */
+.sebrae-resource {
+  text-align: center; /* Centraliza o texto dentro da seção */
+}
+
+/* Estilo geral para os recursos do Sebrae */
+.sebrae-resources {
+  width: 80%; /* Define a largura do container para 80% */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  padding: 20px; /* Adiciona um padding de 20px */
+  background-color: #b3a793; /* Cor de fundo bege claro */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para cada grupo de recurso dentro da seção */
+.resource-group {
+  margin-bottom: 20px; /* Adiciona um espaçamento inferior de 20px */
+  padding: 20px; /* Adiciona um padding interno de 20px */
+  background-color: beige; /* Cor de fundo bege */
+  border: 1px solid #f7f8f7; /* Borda de 1px com cor similar ao fundo */
+  border-radius: 5px; /* Bordas arredondadas com raio de 5px */
+  display: inline-block; /* Faz com que os grupos fiquem lado a lado */
+  vertical-align: top; /* Alinha os grupos no topo */
+  width: 30%; /* Define a largura de cada grupo para 30% */
+}
+
+/* Estilo para o título dentro dos grupos de recursos */
+.resource-group h3 {
+  margin-top: 0; /* Remove o espaçamento superior do título */
+}
+
+/* Estilo para o botão de link */
+.button {
+  display: inline-block; /* Faz o botão ser exibido como um bloco inline */
+  padding: 10px 20px; /* Define um padding interno de 10px verticalmente e 20px horizontalmente */
+  background-color: #007bff; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branca */
+  text-decoration: none; /* Remove o sublinhado do link */
+  border-radius: 5px; /* Bordas arredondadas com raio de 5px */
+}
+
+/* Estilos de responsividade para telas menores */
+@media (max-width: 768px) {
+  .resource-group {
+      width: 100%; /* Em telas menores, cada grupo ocupará 100% da largura */
+      margin-bottom: 10px; /* Adiciona um espaçamento inferior de 10px entre os grupos */
+  }
+}
